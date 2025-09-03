@@ -31,5 +31,8 @@ function print(){
 
 // console.log("Fuctional Scope :", d);
 
+
+a = 10;
+
 // Function Call
 print();
