@@ -55,3 +55,24 @@ console.log("value of const:",arr1);
 
 const obj1 = { a: 1, b: 2 };
 console.log("value of const:",obj1);
+
+//Hosting
+let j = 30;
+let k = 5;
+
+function div(){
+    console.log(j/k);
+}
+
+div();
+
+let fname="Avinash";
+console.log(fname);
+
+function print(){
+    console.log(sname);
+}
+
+let sname="Pawar";
+
+print();

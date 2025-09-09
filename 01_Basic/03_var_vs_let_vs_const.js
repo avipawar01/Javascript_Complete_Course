@@ -16,7 +16,7 @@ console.log("Value of Let: ", b);
 
 // const is also block-scoped, similar to let.
 //  Variables declared with const cannot be reassigned or redeclared after their initial assignment. They must be initialized at the time of declaration. However, if a const variable holds an object or array, the properties of that object or array can still be modified, but the variable itself cannot be reassigned to a different object or array.
-const c = 23;
+const c = 24;
 console.log("Value of Const: ", c);
 
 

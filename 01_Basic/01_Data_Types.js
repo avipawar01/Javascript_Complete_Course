@@ -27,6 +27,7 @@ a = "10";
 
 console.log("This is number :", a);
 console.log("Hi, My Name is: ", b);
+console.log("value of let:",c);
 
 console.log(d);
 console.log(id);

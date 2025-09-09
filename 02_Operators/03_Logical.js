@@ -7,7 +7,7 @@ const a6 = false && "Cat"; // f && t returns false
 const a7 = "Cat" && false; // t && f returns false
 
 
-console.log(a1);
+console.log(a2);
 
 
 // OR
@@ -20,7 +20,7 @@ const o5 = "Cat" || "Dog"; // t || t returns Cat
 const o6 = false || "Cat"; // f || t returns Cat
 const o7 = "Cat" || false; // t || f returns Cat
 
-
+console.log(o3);
 // Null
 
 const n1 = !true; // !t returns false

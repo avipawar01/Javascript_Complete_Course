@@ -1,6 +1,6 @@
-let a = 23;
+let a = 30;
 
-let b = "23";
+let b = "30";
 
 
 // == -> comparison 
@@ -12,11 +12,11 @@ let b = "23";
 // != (Loose inequality), !== (Strict inequality)
 
 
-if(a === b){
+if(a == b){
     console.log("A and B are equal");
 }
 
-a += 1;
+a += 2;
 
 // +=, -=, *=, /=, %=, **= (Compound assignment operators)
 
