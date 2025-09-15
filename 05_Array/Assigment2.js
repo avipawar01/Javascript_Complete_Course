@@ -26,3 +26,11 @@ console.log(arr2);
 
 arr2.unshift("pink");
 console.log(arr2);
+
+
+
+// 4.Write a function that takes an array of numbers and returns a new array where each number is doubled.
+
+const numbers = [1,2,3];
+const doubled = numbers.map(num => num + 3);
+console.log(doubled); 
