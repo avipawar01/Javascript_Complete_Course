@@ -34,3 +34,28 @@ console.log(arr2);
 const numbers = [1,2,3];
 const doubled = numbers.map(num => num + 3);
 console.log(doubled); 
+
+// 5.What is the difference between forEach() and map()?
+//forEach()
+let number =[1,2,4,5];
+numbers.forEach(function(num){
+ console.log(num*2);
+})
+//map()
+let numbers1 = [2,4,6,8];
+let doubled1 = numbers1.map(function(num){
+  return num * 2;
+})
+
+//6. Write a function to find whether a number exists in an array using includes().
+function checkNumberExists(arr, num){
+  if(arr.includes(num)){
+    console.log(num + " "+"exists in an array.");
+  }
+  else{
+    console.log(num + " "+"dose not exists in an array.");
+  }
+}
+let numbers2 = [10,20,30,40,50];
+checkNumberExists(numbers2, 40);
+checkNumberExists(numbers2, 90);

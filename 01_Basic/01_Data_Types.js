@@ -1,4 +1,4 @@
-//  Data Type -> Primary and Non-Primary
+//  Data Type -> Primitive and Non-Primitive
 
 // Primitive Data Types: Number, String, Boolean, Undefined, Null, Symbol
 

@@ -45,29 +45,29 @@ function voter(age){
 voter(18);
 
 //Write a function checkEvenOdd(number) that takes a number as input and prints whether it is Even or
-function checkEvenodd(number){
+function checkEvenOdd(number){
     if(number % 2 == 0){
-        console.log(number + " "+"is Even");
+        console.log(number + " "+"is even");
     }
     else{
-        console.log(number + " "+"is odd");
-    }
+        console.log(number +  " "+"is odd")
+    } 
 }
-checkEvenodd(10);
-checkEvenodd(7);
+checkEvenOdd(10);
+checkEvenOdd(7);
 
 
 //Write a function checkNumber(num) that checks if a number is positive, negative, or zero.
 function checkNumber(num){
-    if(num > 0 ){
-        console.log(num +" " +"is positive");
+    if(num > 0){
+     console.log(num +  " "+"is positive");
     }
     else if(num < 0){
         console.log(num + " "+"is negative");
     }
     else{
         console.log("the number is zero");
-    } 
+    }
 }
 checkNumber(6);
 checkNumber(-5);
@@ -107,7 +107,7 @@ function calculateGrade(marks){
         console.log("Grade : C");
     }
     else{
-        console.log("Grade : Fail");
+        console.log("Grade :Fail");
     }
 }
 calculateGrade(90);
