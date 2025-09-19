@@ -1,6 +1,7 @@
 let count = document.querySelector('.container')
 let btn = document.getElementById('btn')
 
+let reset = document.querySelector('.reset');
 
 let value = 0;
 
@@ -16,3 +17,7 @@ function Reset(){
     value = 0;
     count.textContent = value;
 }
+
+
+
+reset.addEventListener('click', Reset);
