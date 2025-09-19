@@ -3,7 +3,7 @@
 let properties = {
     brand:"range rover",
     model:"sport",
-    year:"2024", 
+    year:"2020", 
 }
 console.log(properties);
 
@@ -15,7 +15,7 @@ console.log(properties);
 const person2 = {
     name:"john",
     age:25,
-    city:" lives in New York new york",
+    city:" lives in New York city",
 
 }
 console.log(person2.name,person2["age"],person2.city);

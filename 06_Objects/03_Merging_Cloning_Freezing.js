@@ -1,10 +1,10 @@
 // Cloning
 
 let profile = {
-    name: "Shubham",
-    surname: "Yeram",
-    age1: 23,
-    college: "PVPPCOE",
+    name: "Avinash",
+    surname: "Pawar",
+    age1: 20,
+    college: " VKK Menon college",
     fullName: function(){
         return this.name + " " + this.surname;
     },
