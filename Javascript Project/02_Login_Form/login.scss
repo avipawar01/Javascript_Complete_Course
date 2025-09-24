@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  
+ 
+  .form-sec {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+ 
+   h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+ 
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="password"],
+  form input[type="file"],
+  form input[type="time"] {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  
+  form label {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #f1f1f1;
+  }
+  
+  
+  .submit {
+    width: 100%;
+    padding: 12px;
+    background: #4cafef;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .submit:hover {
+    background: #369edc;
+  }
+  
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  
+  .result {
+    margin-top: 20px;
+    padding: 12px;
+    background: #fff;
+    color: #333;
+    border-radius: 6px;
+    // display: none;  
+  }
+  

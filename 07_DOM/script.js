@@ -18,6 +18,16 @@ function addTodo(){
     container.appendChild(desc);
 }
 
+const li = document.createElement("li");
+li.innerHTML = `
+    <strong>${titleVal}</strong> - ${descVal}
+    <button class="delete">❌</button>
+`;
+
+// Delete functionality
+li.querySelector(".delete").addEventListener("click", () => {
+    li.remove();
+});
 
 container.appendChild(newDiv);
 
@@ -27,6 +37,9 @@ newDiv.remove();
 
 
 const todo = document.querySelector('.todo');
-const heading = document.getElementsByTagName('h1')[0]
+const heading = document.getElementsByTagName('h1')
 
 todo.removeChild(heading);
+
+
+

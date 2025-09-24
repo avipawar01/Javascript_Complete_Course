@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* To-do container */
+.todo {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.todo h1 {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 1.8rem;
+}
+
+/* Inputs */
+.todo input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.todo input:focus {
+  border: 1px solid #667eea;
+}
+
+/* Submit button */
+.submit {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.submit:hover {
+  background: #5563c1;
+}
+
+/* To-do list container */
+.container {
+  margin-top: 20px;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+/* Each task item */
+.container li {
+  background: #f8f8f8;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+/* Delete button */
+// .container li button {
+//   background: #f87171;
+//   border: none;
+//   padding: 6px 10px;
+//   border-radius: 6px;
+//   cursor: pointer;
+//   color: white;
+//   font-size: 0.8rem;
+//   transition: 0.3s;
+// }
+
+// .container li button:hover {
+//   background: #dc2626;
+// }
+.delete {
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 6px;
+}

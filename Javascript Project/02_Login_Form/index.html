@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="form-sec">
     <h1>Login Page</h1>
+
+    <div class="mouseover" id="mouseover">Hover over this div</div>
 
     <form id="form">
 
@@ -14,14 +18,23 @@
         <input type="text" placeholder="name"  id="name"><br/><br/>
         <input type="number" placeholder="mobile number" id="mobile"><br/><br/>
         <input type="text" placeholder="password" id="password"><br><br>
-
+        <input type="file" placeholder="file" id="file"><br><br>
+        <input type="date" placeholder="DOB" id="DOB"><br><br>
+        <label><input type="radio" name="gender">Male</label>
+        <label><input type="radio" name="gender">Female</label>
+        <!-- <label><input type="Checkbox" name="playing">playing</label>
+        <label><input type="Checkbox" name="dancing">dancing</label>
+        <label><input type="Checkbox" name="singing">singing</label> -->
         <button class="submit">Submit</button>  
-
+        <p id="myParagraph">This is a paragraph.</p>
+        <button onclick="changeText()">Click Me!</button>
+      
         <p class="error" id="error"></p>
     </form>  
 
     <div class="result" id="result"></div>
 
-    <script src="script.js"></script>  
+    <script src="script.js"></script> 
+ </section> 
 </body>  
 </html>  
