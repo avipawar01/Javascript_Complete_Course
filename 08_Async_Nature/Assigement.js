@@ -54,11 +54,22 @@ console.log("Stop Timer!");
 // "Learning JavaScript is Fun!"
 // appears on the screen one character at a time, with a delay of 200ms between each character.
 
-count = "Learning JavaScript is Fun!";
-let time = 0;
+let text = "Learning JavaScript is Fun!";
+let i = 0;
 
-function typingeffect(){
-    time ++;
-    console.log("text:",count);
+let output = "";
+
+const typeWrite = setInterval(handleType, 200)
+
+function handleType() {
+    if(i < text.length) {
+        output = output + text[i];
+        i++;
+        console.log(output)
+    }
+    else {
+        clearInterval(typeWrite)
+         console.log("\nCompleted");
+    }
 }
-setTimeout(typingeffect, 200);
+
