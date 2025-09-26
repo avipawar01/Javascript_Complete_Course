@@ -1,55 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #89f7fe, #66a6ff);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  h1 {
-    color: #333;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  }
-  
-  #time {
-    font-size: 2rem;
-    color: #222;
-    background: #fff;
-    padding: 15px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  #start {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  #start:hover {
-    background-color: #45a049;
-  }
-  
-  #stop {
-    background-color: #f44336;
-    color: white;
-  }
-  
-  #stop:hover {
-    background-color: #d32f2f;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#time {
+  font-family: 'Courier New', monospace;
+  font-size: 3rem;
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+
+/* Buttons container */
+.button-container {
+  text-align: center;
+}
+
+/* Buttons style */
+button {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
